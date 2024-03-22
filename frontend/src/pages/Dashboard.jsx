@@ -2,6 +2,7 @@ import { useContext } from "react"
 import { UserContext } from "../context/UserContext";
 import { Navigate } from "react-router-dom";
 import Location from "../components/Location/location";
+import Footer from "../components/footer/Footer";
 
 export default function Dashboard() {
   const {user} = useContext(UserContext);
@@ -24,6 +25,7 @@ export default function Dashboard() {
         <Location/>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }

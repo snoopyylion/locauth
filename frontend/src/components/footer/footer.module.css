@@ -1,0 +1,113 @@
+.footer{
+    background: #2d2d32;
+    width: 100%;
+}
+.section__padding{
+    padding: 4rem 4rem;
+}
+.sb__footer{
+    display:flex;
+    flex-direction: column;
+}
+.sb__footer_l{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+}
+.sb__footer_l_div{
+    width: 150px;
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+.socialmedia p{
+    width: 50%;
+}
+.sb__footer_l_div h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0.9rem;
+}
+.sb__footer_l_div p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.9rem 0;
+    cursor: pointer;
+}
+.sb__footer_below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.sb__footer_below_links{
+    display: flex;
+    flex-direction: row;
+}
+.sb__footer_below_links p{
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: white;
+    font-weight: 600;
+}
+hr{
+    color: white !important;
+    width: 100%;
+}
+.sb__footer_copyright p{
+    font-size: 13px;
+    line-height: 15px;
+    color: aqua;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+  .sb__footer_heading h1{
+    font-size: 44px;
+    line-height: 50px;
+  }  
+}
+
+@media screen and (max-width: 550px) {
+    .sb__footer_heading h1{
+      font-size: 34px;
+      line-height: 42px;
+    }  
+    .sb__footer_l_div{
+        margin: 1rem 0;  
+    }
+    .sb__footer_btn{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sb__footer_below{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .sb__footer_below_links{
+        flex-direction: column;
+    }
+    .sb__footer_below_links p{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .sb__footer_heading h1{
+        font-size: 27px;
+        line-height: 38px;
+      }  
+
+}
