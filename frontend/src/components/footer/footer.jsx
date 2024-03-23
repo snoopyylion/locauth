@@ -1,6 +1,5 @@
 import style from './footer.module.css';
 import { Link } from "react-router-dom";
-import linkedin from "../../assets/linkedin.png";
 import { FaInstagram, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 
